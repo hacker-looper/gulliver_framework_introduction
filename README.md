@@ -1,6 +1,6 @@
 # Gulliver SERVICE FRAMEWORK BASE ON PHP & Restler
-Minimal Restful framework build by PHP5.X, provide a performance API workout, SIMPLE AND EFEECTIVE !
-Inspire by ProcessMaker
+Minimal Restful framework build by PHP5.X, provide a performance API workout, SIMPLE AND EFEECTIVE ! <br/>
+Inspired by ProcessMaker !
 
 ## WHY USE Gulliver
 * Simple and effective
