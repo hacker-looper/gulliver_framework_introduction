@@ -1,0 +1,5 @@
+#!/usr/bin/env php
+<?php
+$scriptDir = dirname(__FILE__).'/';
+define("PATH_GULLIVER_BIN", $scriptDir . 'system/bin/');
+include PATH_GULLIVER_BIN . '/gulliver';
