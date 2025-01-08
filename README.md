@@ -22,7 +22,7 @@ Minimal Restful framework build by PHP5.X, provide a performance API workout, SI
 @ECHO OFF
 for %%F in (%0) do set dirname=%%~dpF
 SET PHP_PATH="{path2php}\php5.6.40"
-SET PHP_BIN="D:\Developing\wamp\bin\php\php5.6.40\php.exe"
+SET PHP_BIN="{path2php}\php.exe"
 SET PATH_GULLIVER="%dirname%\"
 SET PATH_GULLIVER_BIN="%dirname%bin\gulliver"
 SET PATH=%PATH%;%PHP_PATH%;%PATH_GULLIVER_BIN% 
@@ -93,18 +93,3 @@ gulliver/
 └── README.md             # 项目说明文档
 ```
 
-目录说明:
-- `bin/`: 命令行工具和可执行文件
-- `classes/`: 类文件目录
-  - `library/`: 核心库文件
-  - `model/`: PROPEL-ORM 模型（自动生成）
-  - `vendor/`: 系统依赖库
-- `config/`: 配置文件目录
-  - `database.ini`: 数据库配置
-  - `gulliver.ini`: API 配置
-  - `propel.ini`: Propel ORM 配置
-- `doc/`: API DOC文档（API-DOC）
-- `cron/`: 定时任务
-- `service/`: 业务接口实现
-- `vendor/`: Composer 依赖包
-- `shared/`: 共享文件夹（资源库）
